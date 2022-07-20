@@ -1,0 +1,21 @@
+{
+    "name": "devanime/giorno-giovanna",
+    "type": "wordpress-theme",
+    "description": "The child theme used to start all new website builds.",
+    "authors": [
+        {
+            "name": "DevAnime",
+            "email": "devanimecards@gmail.com",
+            "homepage": "https://www.devanimecards.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ChildTheme\\": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "composer/installers": "~1.0"
+    }
+}
